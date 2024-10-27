@@ -12,7 +12,7 @@ class TabBarViewController: UIViewController {
     private lazy var testLabel: UILabel = {
         let label = UILabel()
         
-        label.textColor = .black
+        label.textColor = .accent
         label.font = .preferredFont(forTextStyle: .extraLargeTitle)
         
         return label
